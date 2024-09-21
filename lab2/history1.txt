@@ -1,0 +1,164 @@
+    1  sudo apt update && sudo apt upgrade -y
+    2  dotnet tool update -g linux-dev-certs
+    3  dotnet linux-dev-certs install
+    4  sudo dotnet linux-dev-certs install
+    5  clear
+    6  ls
+    7  l
+    8  ll
+    9  clear
+   10  dotnet tool install csharpier -g
+   11  dotnet tool install csharpier 
+   12  dotnet tool install csharpier -g
+   13  dotnet tool install csharpier --global
+   14  dotnet tool install csharpier
+   15  c;ear
+   16  clear
+   17  dotnet run 
+   18  clear
+   19  dotnet run 
+   20  ls -la
+   21  clear
+   22  dotnet 
+   23  sudo apt install dotnet-sdk
+   24  ls
+   25  clear
+   26  ssh-keygen -t ed25519 -C "isgribkov@outlook.com"
+   27  eval "$(ssh-agent -s)"
+   28  ssh-add ~/.ssh/id_ed25519
+   29  cat .ssh/id_ed25519.pub 
+   30  git clone git@github.com:GrIvans/CurrencyConverter.git
+   31  ls
+   32  cd CurrencyConverter/
+   33  ls
+   34  dotnet 
+   35  sudo apt install dotnet-sdk
+   36  dotnet
+   37  sudo snap install dotnet-sdk
+   38  sudo snap install dotnet-sdk --classic 
+   39  dotnet 
+   40  dotnet run 
+   41  ls
+   42  ls -la
+   43  clear
+   44  lsl
+   45  ls
+   46  clear
+   47  git status
+   48  ls -la
+   49  rm -r bin/ obj/
+   50  ls -la
+   51  dotnet run
+   52  clear
+   53  ls /etc/
+   54  ls /etc/dotnet
+   55  sudo snap refresh 
+   56  snap remove dotnet-sdk 
+   57  sudo snap remove dotnet-sdk 
+   58  dotnet run
+   59  clear
+   60  dotnet
+   61  sudo apt install dotnet-host-8.0
+   62  dotnet
+   63  sudo apt install dotnet-sdk-8.0
+   64  lx
+   65  cllear
+   66  clear
+   67  ls
+   68  dotnet -b
+   69  dotnet tool update -g linux-dev-certs
+   70  dotnet linux-dev-certs install
+   71  clear
+   72  dotnet run 
+   73  code .
+   74  clear
+   75  dotnet run 
+   76  clear
+   77  ls
+   78  dotnet run -h
+   79  dotnet run
+   80  ls
+   81  clear
+   82  cd os-labs/
+   83  ls
+   84  github pull 
+   85  git pull 
+   86  cd labs-2024/lab2/
+   87  ls
+   88  cd Homework-OS/
+   89  ls
+   90  mkdir lab2
+   91  cd lab2/
+   92  cat 1. Создайте директорию с именем любимого сериала, в ней создайте директории с именами некоторых персонажей.
+   93  В каждой директории посвященной персонажу создайте файл info.txt, содержащий его полное имя, краткое описание характера и отношение к сюжету (без спойлеров).
+   94  2. С помощью команды cat в корневой созданной директории создайте файл в котором сначала будут перечислены все персонажи,
+   95  а затем - все данные о них, приведенные в файлах info.txt. Между информацией об отдельных персонажах поместите разделитель, дополнительный комментарий или описание. > task.txt
+   96  clear
+   97  ls
+   98  cat task.txt 
+   99  vim task.txt 
+  100  cat task.txt 
+  101  less --help 
+  102  vim task.txt 
+  103  cat task.txt 
+  104  mkdir arcane
+  105  cd arcane/
+  106  mkdir jinx
+  107  mkdir Vi Caitlyn Ekko Heimerdinger
+  108  ls
+  109  cd jinx/
+  110  cat До недавнего времени в душе Джинкс боролись две личности: сильная и опасная воспитанница Силко и слабая, испуганная младшая сестренка, которую защищала Вай. Теперь же она уверилась в том, что стала чудовищем по вине сестры, и больше не чувствует ничего, кроме стремления разрушать. > info.txt
+  111  ls
+  112  cat info.txt 
+  113  vim info.txt 
+  114  cat info.txt 
+  115  cd ..
+  116  cd Vi/
+  117  echo Смирившись с тем, что Паудер больше нет, Вай поклялась остановить Джинкс – чудовище, которое сама же создала. Понимая, как опасна ее сестра, Вай объединила силы с Кейтлин и согласилась по ее просьбе вступить в ряды пилтоверских миротворцев. >> info.txt
+  118  cat info.txt 
+  119  cd ..
+  120  cd Caitlyn/
+  121  echo Кейтлин – миротворец из Пилтовера. Раньше она проводила собственное расследование, чтобы разоблачить коррупцию в Зауне и Пилтовере, но ее надежда на мир рухнула после атаки Джинкс на совет. > info.txt
+  122  cat info.txt 
+  123  cd ..
+  124  cd Ekko/
+  125  echo Экко возглавляет Поджигателей – группу заунцев, которые сражаются за свой новый дом. Неожиданно для себя он обрел друга в лице Хеймердингера, и вместе они стараются помочь жителям Зауна. > info.txt
+  126  cd .. 
+  127  cd Heimerdinger/
+  128  echo Хеймердингер предостерегал совет Пилтовера от бесконтрольного использования магии, но не смог предотвратить катастрофу. Наученный горьким опытом с Джейсом, Хеймердингер решил, что больше не будет оставаться в стороне, и помогает Экко не только советами, но и делом. >> info.txt
+  129  clear
+  130  cat 
+  131  cat --help 
+  132  ls 
+  133  ls -l
+  134  cat info.txt 
+  135  cd ..
+  136  ls
+  137  ls -a
+  138  ls -l
+  139  ls > info.txt
+  140  cat info.txt 
+  141  cat - Caitlyn/info.txt - Ekko/info.txt - Heimerdinger/info.txt - Vi/info.txt - jinx/info.txt 
+  142  ды
+  143  ls
+  144  rm info.txt 
+  145  ls > info.txt
+  146  cat - Caitlyn/info.txt - Ekko/info.txt - Heimerdinger/info.txt - Vi/info.txt - jinx/info.txt >> info.txt 
+  147  rm info.txt 
+  148  ls > info.txt
+  149  cat info.txt 
+  150  cat - Caitlyn/info.txt - Ekko/info.txt - Heimerdinger/info.txt - Vi/info.txt - jinx/info.txt >> info.txt 
+  151  cat info.txt 
+  152  vim 
+  153  vim info.txt 
+  154  cat info.txt 
+  155  git status
+  156  cd ..
+  157  git status
+  158  cd ..
+  159  ls
+  160  git status
+  161  git add lab2/
+  162  cd lab2/
+  163  git status
+  164  history > history1.txt

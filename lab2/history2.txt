@@ -1,0 +1,13 @@
+    1  history 
+    2  clear
+    3  ls
+    4  less -р
+    5  less -h
+    6  less --help
+    7  less labdata-6.log 
+    8  code .
+    9  less --help
+   10  less labdata-6.log 
+   11  cd ~/Homework-OS/lab2/
+   12  ls
+   13  history > history2.txt
